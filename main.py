@@ -37,6 +37,6 @@ print(r2_score(y_teste,previsao_regresaolinear))
 print(r2_score(y_teste,previsao_arvorededecisao))
 
 novos = pd.read_csv("Novos.csv")
-display(novos)
+print(novos)
 
 print(modelo_arvorededecisao.predict(novos))
